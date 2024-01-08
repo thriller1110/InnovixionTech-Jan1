@@ -1,0 +1,57 @@
+body{
+    margin-top: 60px;
+    text-align: center;
+    background-color: rgb(251, 223, 180);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color: brown;
+    font-size: 65px;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    color: rgba(251, 108, 6, 0.919);
+    font-size: 35px;
+    padding: 15px 30px;
+}
+
+input{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(249, 249, 225);
+}
+
+button{
+    min-width: 145px;
+    margin: 40px 25px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(251, 173, 104);
+    font-weight: 550px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    color: rgb(253, 77, 29);
+    font-size: 30px;
+    font-weight: 620
+}
+
+.time{
+    background-color:rgb(249, 249, 225);
+    font-size: 90px;
+    min-width: 140px;
+    margin: 10px 15px;
+}
