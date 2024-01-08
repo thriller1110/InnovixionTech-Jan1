@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+      </style>
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Date</th>
+                <th>Enter Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td><input type="date" id="date"></td>
+            <td><input type="time" id="time"></td>
+        </tbody>
+    </table>
+    <button id="calcu">Calculate</button>
+    <button>Stop</button>
+    <button>Reset</button>
+    <div class="countdown"><br>
+        <div><br>
+            <p class="heading">Day</p>
+            <div class="time">0</div>
+        </div>
+        <div><br>
+            <p class="heading">Hours</p>
+            <div class="time">0</div>
+        </div>
+        <div><br>
+            <p class="heading">Minutes</p>
+            <div class="time">0</div>
+        </div>
+        <div><br>
+            <p class="heading">Seconds</p>
+            <div class="time">0</div>
+        </div>
+    </div>
+</body>
+</html>
